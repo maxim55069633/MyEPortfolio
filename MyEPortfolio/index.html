@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.4.0/mapbox-gl.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/myeportfolio.css">  
+    <title>Upward Translation</title>
+</head>
+<body>
+    <!--Navbar-->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+            <div class="container-fluid">
+                <span class="navbar-brand">
+                    <img class="d-none d-md-block" src="imgs/upwardtranslation.png" alt="Upward Translation">
+                </span>
+
+                <p class="navbar-brand h1 d-block d-md-none h5">Upward Translation</p>
+
+                  <!--Language-->
+                <div>
+                  <a href="" class="d-block language-link active m-2 text-light">English</a>
+                  <a href="zh.html" class="d-block language-link m-2 text-light">中文</a>
+                </div>
+                   
+                 
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                      <ul class="navbar-nav ms-auto">
+                          <li class="nav-item"><a class="nav-link" href="#Home">Home</a></li>
+                          <li class="nav-item"><a class="nav-link" href="#Services">Services</a></li>
+                          <li class="nav-item"><a class="nav-link" href="#FAQ">FAQ</a></li>
+                          <li class="nav-item"><a class="nav-link" href="#AboutMe">About Me</a></li>
+                          <li class="nav-item"><a class="nav-link" href="#ContactInfo">Contact Info</a></li>
+                      </ul>
+                  </div>
+              </div>
+           
+          </nav>
+    </div>
+    <!--Welcome Page-->
+ <section id="Home">
+     <div class="container p-5">
+         <div class="row align-items-center justify-content-between">
+             <div class="col-md">
+                 <img class="img-fluid" src="imgs/language.png" alt="Welcome">
+             </div>
+
+             <div class="col-md p-5">
+                 <h1>Welcome</h1>
+                 <p class="h2">Do you need a <span class="text-primary">Chinese translator</span>?</p>
+             </div>
+         </div>
+     </div>
+ </section>
+
+ <!--Services-->
+ <section id="Services">
+     <div class="container text-center  bg-success">
+         <h1 class="text-light p-3">Services</h1>
+
+         <div class="row row-cols-1 row-cols-md-2 g-4 p-5">
+
+            <div class="col">
+                <div class="card h-100 bg-primary text-light">
+                  <i class="bi bi-file-earmark-font h1 p-3"></i>
+                  <div class="card-body">
+                    <h5 class="card-title pt-5">English to Chinese(Simplified) Translation</h5>
+                   
+                  </div>
+                  <p class="card-text">Price: $0.06 per word </p>
+
+                  <div class="card-footer">
+                    <small class="text-muted">
+                      <a href="samples/translation_sample_1_watermark.pdf" target="_blank" class="btn btn-light m-5">Sample</a>
+                    </small>
+                  </div>
+
+                </div>
+                
+              </div>
+
+              <div class="col">
+                <div class="card h-100 bg-warning text-light">
+                  <i class="bi bi-laptop h1 p-3"></i>
+                  <div class="card-body">
+                    <h5 class="card-title pt-5">English to Chinese(Simplified) Subtitling and Translation</h5>
+                    
+                  </div>
+                  <p class="card-text">Price: $0.08 per word </p>
+
+                  <div class="card-footer">
+                    <small class="text-muted">
+                      <a href="https://www.youtube.com/watch?v=O-71kWDSOPo" target="_blank" class="btn btn-light m-5">Sample</a>
+                    </small>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card h-100 bg-danger text-light">
+                  <i class="bi bi-spellcheck h1 p-3"></i>
+                  <div class="card-body">
+                    <h5 class="card-title pt-5">English to Chinese(Simplified) Machine Translation Post-Editing</h5>
+                  
+                  </div>
+                  <p class="card-text">Price: $30 per hour </p>
+                  <div class="card-footer">
+                    <small class="text-muted">
+                      <a href="#" class="btn btn-light m-5">Sample Coming Soon</a>
+                    </small>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card h-100 bg-info text-light">
+                  <i class="bi bi-pen h1 p-3"></i>
+                  <div class="card-body">
+                    <h5 class="card-title pt-5">Chinese(Simplified) Transcription</h5>
+                  
+                  </div>
+                  <p class="card-text">Price: $3 per minute </p>
+                  <div class="card-footer">
+                    <small class="text-muted">
+                      <a href="#" class="btn btn-light m-5">Sample Coming Soon</a>
+                    </small>
+                  </div>
+                </div>
+              </div>
+
+          
+        </div>
+     </div>
+ </section>
+   
+ <!--FAQ-->
+<section id="FAQ">
+  <div class="container p-5">
+    <h1 class="text-center">Frequently Asked Questions</h1>
+
+
+    <div class="accordion accordion-flush p-3" id="accordionFlushExample">
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingOne">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            Do you accept a translation test? #1
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Yes. But the translation test should be no longer than 250 words. </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            What document types can be processed? #2
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body"> For now, MS Office, PDF, SRT, MP3, MP4, WMV, HTML are accepted. </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!--About Me-->
+<section id="AboutMe">
+  <div class="container bg-secondary text-light">
+
+    <div class="row align-items-center justify-content-between p-3">
+      <div class="col-md ">
+        <h1 class="text-center">About Me</h1>
+        <br>
+        <p class="h4 p-3">Kai Liu <br>
+          freelance translator <br>
+          Concentrating on website translation <br>
+          To help the world communicate smoothly <br> <br>
+
+          Bachelor's Degree in English <br>
+          NorthWest University, Xi'an, China <br>
+          ( September 2015 - June 2020 ) <br><br>
+
+          CAT Tool: Cafetran Espresso (Compatible with SDL Trados, MemoQ, Wordfast and other major CAT tools)
+        </p>
+      </div>
+
+      <div class="col-md">
+        <p class="m-3 text-center h3">Photo coming soon</p>  
+        <img class="img-fluid p-5" src="imgs/panda.jpg" alt="selfie">
+
+      </div>
+
+
+    </div>
+
+  </div>
+</section>
+
+<!--Contact Info-->
+<Section id="ContactInfo" class="p-3">
+  
+  <h1 class="h2 text-center">Contact Info</h1>
+  <div class="container-fluid row row-cols-md-2 p-5">
+
+        <div class="col ">
+            <ul class="list-group lead">
+              <li class="list-group-item text-break"><span class="fw-bold">E-mail: </span>kailiu2020@outlook.com</li>
+              <li class="list-group-item text-break"><span class="fw-bold">LinkedIn: </span><a target="_blank" href="https://www.linkedin.com/in/kai-liu-b53735207/"><i class="bi bi-linkedin"></i> Kai Liu</a></li>
+              <li class="list-group-item text-break"><span class="fw-bold">GitHub: </span><a target="_blank" href="https://github.com/maxim55069633"><i class="bi bi-github"></i> Kai Liu</a></li>
+            </ul>
+          </div>
+
+          <div class="col d-none d-md-block">
+          
+              <div id='map' style='width: 35vw; height: 50vh;' ></div>
+
+             
+          </div>
+    
+  </div>
+</Section>
+
+<!--Footer-->
+<footer >
+  <div class="container bg-dark text-light">
+    <div class="p-3 m-3">
+      
+    <p>CopyRight &copy; 2021 UpwardTranslation
+    <a href="#" class="position-fixed bottom-0 end-0"> 
+      <i class="bi bi-arrow-up-square h2 text-warning"></i>
+    </a>
+     
+    </p>
+
+    </div>
+  </div>
+</footer>
+
+
+
+<script src="https://api.mapbox.com/mapbox-gl-js/v2.4.0/mapbox-gl.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  
+<script>
+  mapboxgl.accessToken = 'pk.eyJ1Ijoic21pbGluZ2JvYiIsImEiOiJja3M1dzhhOGQyYjhjMnVxbTZ1azI4NW94In0.iABSAx7tWqClYy0JEFj00Q';
+  const map = new mapboxgl.Map({
+      container: 'map', // container ID
+      style: 'mapbox://styles/mapbox/streets-v11', // style URL
+      center: [107.23, 40.44], // starting position [lng, lat]
+      zoom: 6 // starting zoom
+  });
+  </script>  
+
+  </body>
+</html>
